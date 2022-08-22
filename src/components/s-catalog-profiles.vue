@@ -1,0 +1,94 @@
+<template >
+    <div class="s-catalog-profiles"> </div>
+
+    <h1>Profiles</h1>
+
+    <div class="s-catalog list">
+    <s-id-profile
+        v-for="profile in profiles"
+        :key="profile.idProfile"
+        v-bind:profile_data="profile"
+        /> 
+    </div>
+</template>
+
+<script>
+    import sIdProfile from './s-id-profile';
+
+    export default{
+        name: "s-catalog-profiles",
+        components: {
+            sIdProfile
+        },
+        props:{},
+        data() {
+            return {
+                 profiles: [
+        {
+            image: "sasha.jpg" ,
+            name: "Белый" ,
+            sumPosts: "1" ,
+            sumAlbums: "12" ,
+            idProfile: "1" ,
+            available: "f" 
+        },
+        {
+         image: "kosmos.jpg" ,
+            name: "Космос" ,
+            sumPosts: "2" ,
+            sumAlbums: "12",
+            idProfile: "2" ,
+            available: "f" 
+        },
+         {
+         image: "pchela.jpg" ,
+            name: "Пчёла" ,
+            sumPosts: "3" ,
+            sumAlbums: "12" ,
+            idProfile: "3" ,
+            available: "f" 
+        },
+         {
+         image: "phill.jpg" ,
+            name: "Фил" ,
+            sumPosts: "" ,
+            sumAlbums: "12" ,
+            idProfile: "4" ,
+            available: "f" 
+        },
+         {
+         image: "wife.jpg" ,
+            name: "Ольга" ,
+            sumPosts: "2" ,
+            sumAlbums: "12" ,
+            idProfile: "5" ,
+            available: "f" 
+        },
+         {
+         image: "oper.jpg" ,
+            name: "Володя" ,
+            sumPosts: "2" ,
+            sumAlbums: "12" ,
+            idProfile: "6" ,
+            available: "f" 
+        }
+    ]
+            }
+        },
+        computed:{
+            
+        }
+    }
+</script>
+
+<style>
+    /* .s-catalog-profile{
+         &_list{ 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        } */
+    
+
+</style>

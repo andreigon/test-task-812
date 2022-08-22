@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <pre>{{res}}</pre>
-    <pre>{{getResult}}</pre>
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+   <s-main-wrapper> </s-main-wrapper>
   </div>
 </template>
 <script>
 
+import sMainWrapper from './components/s-main-wrapper';
+
+// API
+
 import api from '@/api.js'
 export default {
   name: 'App',
+   components:{
+    sMainWrapper
+   },
     data(){
       return {
         res:[],

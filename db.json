@@ -1,0 +1,53 @@
+
+{
+    "profiles": [
+        {
+            "image": "sasha.jpg" ,
+            "name": "Белый" ,
+            "sumPosts": "1" ,
+            "sumAlbums": "12" ,
+            "idProfile": "1" ,
+            "available": "f" 
+        },
+        {
+            "image": "kosmos.jpg" ,
+            "name": "Космос" ,
+            "sumPosts": "2" ,
+            "sumAlbums": "12",
+            "idProfile": "2" ,
+            "available": "f" 
+        },
+         {
+            "image": "pchela.jpg" ,
+            "name": "Пчёла" ,
+            "sumPosts": "3" ,
+            "sumAlbums": "12" ,
+            "idProfile": "3" ,
+            "available": "f" 
+        },
+         {
+            "image": "phill.jpg" ,
+            "name": "Фил" ,
+            "sumPosts": "" ,
+            "sumAlbums": "12" ,
+            "idProfile": "4" ,
+            "available": "f" 
+        },
+         {
+            "image": "wife.jpg" ,
+            "name": "Ольга" ,
+            "sumPosts": "2" ,
+            "sumAlbums": "12" ,
+            "idProfile": "5" ,
+            "available": "f" 
+        },
+         {
+            "image": "oper.jpg" ,
+            "name": "Володя" ,
+            "sumPosts": "2" ,
+            "sumAlbums": "12" ,
+            "idProfile": "6" ,
+            "available": "f" 
+        }
+    ]
+}
